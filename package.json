@@ -1,0 +1,26 @@
+{
+  "name": "datainpng",
+  "version": "1.0.0",
+  "description": "Embedding custom files in PNG files",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.ts\"",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Kei Tuncer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/pngjs": "^6.0.4",
+    "@types/yargs": "^17.0.32",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "crc": "^4.3.2",
+    "pngjs": "^7.0.0",
+    "yargs": "^17.7.2"
+  }
+}
